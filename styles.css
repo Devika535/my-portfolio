@@ -1,0 +1,109 @@
+*{ 
+    font-family: monospace;
+    text-align: center;
+}
+body{ 
+    margin: 0;
+    height: 100vh;
+    font-size: 20px;
+    background-color: lightcyan;
+    }
+header{
+    height: 100vh;
+    color: white;
+    background-color:aqua;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+h1{
+    font-size:50px ;
+    color:brown;
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+.button{
+   height:40px;
+   width:140px;
+   margin-top: 20px;
+   border:none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.button:hover{
+    color:white;
+    background-color: bisque;
+}
+img{
+    height: 100px;
+}
+main{
+    padding: 20px;
+}
+ol{
+    list-style-type: decimal;
+    padding-left: 40px;
+    text-align: left;
+    display: inline-block;
+}
+table{
+    font-family:monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border:2px solid;
+    text-align: left;
+    padding: 7px;
+    font-size 20px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+section{
+    height: 100vh;
+    border:1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.submit{
+   height:40px;
+   width:140px;
+   border:none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.submit:hover{
+    color:white;
+    background-color: green;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+.fixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: lightskyblue;
+}
+footer{
+    height:124px;
+    background-color: black;
+    color: lightgrey;
+}
