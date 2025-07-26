@@ -5,4 +5,4 @@ this is a simple personal website built using HTML and CSS.
 -Skills
 -Certifications
 -Contact
-feel free to explore and connect!
+feel free to explore and contact!
